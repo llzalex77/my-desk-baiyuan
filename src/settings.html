@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'"><title>白原設定</title><link rel="stylesheet" href="settings.css"></head><body><h1>陪你一起加油</h1><p id="total"></p><form>
+<label>學習分鐘數<input name="studyMinutes" type="number" min="0.01" max="1440" step="any" required></label>
+<label>休息分鐘數<input name="breakMinutes" type="number" min="0.01" max="1440" step="any" required></label>
+<label>晚安開始時間<input name="nightStart" type="time" required></label>
+<label>晚安結束時間<input name="nightEnd" type="time" required></label>
+<label>每日目標時數<input name="dailyGoalHours" type="number" min="0.01" max="1440" step="any" required></label>
+<p>依 Mac 本機時間判斷晚安時段。儲存後重新開始學習計時，保留今日累計。</p><button type="submit">儲存設定</button><p id="result" role="status"></p></form><details><summary>修改氣泡文字與動畫時間</summary><p>結束程式後編輯以下設定檔，再重新啟動：</p><code id="path"></code></details><script src="settings.js"></script></body></html>

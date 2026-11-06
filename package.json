@@ -1,0 +1,10 @@
+{
+  "name": "my-desk-baiyuan",
+  "version": "1.0.0",
+  "description": "白原桌面學習寵物",
+  "main": "src/main.js",
+  "author": "llzalex77",
+  "scripts": {"start": "electron .", "test": "node --test", "pack:mac": "electron-builder --mac dir", "dist:mac": "electron-builder --mac dmg"},
+  "devDependencies": {"electron": "^42.0.0", "electron-builder": "^26.0.12"},
+  "build": {"appId": "com.baiyuan.desktop-pet", "productName": "白原桌面寵物", "files": ["src/**/*", "assets/**/*", "config.json", "package.json"], "mac": {"category": "public.app-category.education", "target": ["dmg"], "extendInfo": {"LSUIElement": true}}}
+}
