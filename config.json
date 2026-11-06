@@ -1,0 +1,17 @@
+{
+  "studyMinutes": 60,
+  "breakMinutes": 10,
+  "nightStart": "01:00",
+  "nightEnd": "06:00",
+  "dailyGoalHours": 3,
+  "timing": {"tickMs": 250, "saveMs": 5000, "fadeMs": 240, "yaySeconds": 3, "whatSeconds": 3, "yeahSeconds": 3, "perfectSeconds": 5},
+  "messages": {
+    "study": ["寶寶一起學習吧！", "今天也要加油喔", "陪寶寶讀書～"],
+    "break": ["寶貝辛苦了，請你吃東西～", "休息一下，喝口水！"],
+    "goodnight": ["寶寶晚安，早點睡～"],
+    "yay": ["好耶，繼續加油！"],
+    "perfect": ["今天滿分！"],
+    "what": ["怎麼了？"],
+    "yeah": ["耶！開始囉"]
+  }
+}
